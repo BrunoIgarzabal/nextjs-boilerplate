@@ -1,8 +1,10 @@
+import * as S from './styles'
+
 const Main: React.FC = () => {
   return (
-    <main>
+    <S.Wrapper>
       <h1>React</h1>
-    </main>
+    </S.Wrapper>
   )
 }
 
