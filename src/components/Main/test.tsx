@@ -6,7 +6,7 @@ describe('<Main />', () => {
   test('should render the heading', () => {
     const { container } = render(<Main />)
 
-    expect(screen.getByRole('heading', { name: /react/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /title/i })).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
